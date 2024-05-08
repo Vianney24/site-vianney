@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Produits
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="accueil.html">Maillots Club</a></li>
+                            <li><a class="dropdown-item" href="accueil1.html">Maillots Nations</a></li>
+                            <li><a class="dropdown-item" href="accueil2.html">Chaussures</a></li>
+                          
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Infos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="apropos.html">À propos</a></li>
+                            <li><a class="dropdown-item" href="aide.html">Aide</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+</head>
+<body>
+    <div class="container">
+        <h1 > Equipement disponibles</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Image</th>
+                    <th>Pointure</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>adidas predator Edge.1 FG rouge jaune</td>
+                    <td><img src="adidas-predator-edge-1-fg-rouge-jaune.jpg" alt="adidas" width="100" height="100"></td>
+                    <td>41</td>
+                    <td>71500 FCFA</td>
+                </tr>
+               <tr>
+                    <td>Nike Tiempo Legend 10 EDITION LIMITEE</td>
+                    <td><img src="nike-tiempo-legend-10-edition-limitee-30-ans-elite-fg-bleu.jpg" alt="nike tiempo" width="100" height="100"></td>
+                    <td>40</td>
+                    <td>168350 FCFA</td>
+                </tr>
+                <tr>
+                    <td>Nike Phantom GX II Elite FG</td>
+                    <td><img src="nike-phantom-gx-ii-elite-fg-beige-noir.jpg" alt="nike elite " width="100" height="100"></td>
+                    <td>43</td>
+                    <td>126100 FCFA</td>
+                </tr>
+                <tr>
+                    <td>Nike Air Zoom Mercurial </td>
+                    <td><img src="nike-air-zoom-mercurial-vapor-15-elite-fg-noir-bleu.jpg" alt="nike air" width="100" height="100"></td>
+                    <td>41</td>
+                    <td>109200 FCFA</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mt-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPanier">Valider</button>
+            <button type="button" class="btn btn-secondary">Modifier</button>
+            <button type="button" class="btn btn-danger">Annuler</button>
+        </div>
+        <div class="modal fade" id="modalPanier" tabindex="-1" aria-labelledby="modalPanierLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalPanierLabel">Confirmation de commande</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Êtes-vous sûr de vouloir valider votre panier ?</p>
+                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary">Valider la commande</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center py-3">
+          <div class="mt-3">
+    <button type="button" class="btn"> <a href="contact.html"><h3>Nous contacter</h3>
+    </a></button>
+         </div>
+        </footer> 
+    </div>
+</body>
+<footer class="text-center py-3">
+        <p> <a href="#">©BEDIM 2024</a> - <a href="accueil.html">accueil</a> -  <a href="apropos.html">À propos</a> - <a href="contact.html">contact</a> -  <a href="aide.html">Aide</a></p> 
+</footer>
+</body>
+</html>
